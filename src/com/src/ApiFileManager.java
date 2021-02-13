@@ -21,6 +21,7 @@ public class ApiFileManager {
         } catch (IOException e) {
             e.printStackTrace();
         }
+        System.out.println("This is in branch -2. Test");
     }
 
     public static void writeToFile(String fileToGet, String output) {
